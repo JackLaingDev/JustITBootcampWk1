@@ -1,0 +1,82 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:blueviolet;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.lowersection{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lowersection div{
+    display: flex;
+    margin: 10px;
+    font-size: large;
+}
+
+.lowersection p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(168, 210, 210);
+    color: black;
+}
+
+.navbar-title{
+    justify-content: center;
+}
+
+.navbar-item{
+    font-size: large;
+    font-weight: 800;
+}
+
+.navbar-title:hover{
+    transform: scale(1.15);
+    color: azure;
+}
+
+.navbar div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar h1{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+
+.maintext{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.explanation{
+    font-size: large;
+}
+
+.day a{
+    text-decoration: underline;
+}

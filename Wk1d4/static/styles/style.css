@@ -1,0 +1,401 @@
+/* <a> */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* <body> */
+body{
+    padding: 0px 0px 100px 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;;
+}
+
+
+/* utility */
+.align-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.raised-box{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(243, 241, 241);
+    padding: 5px 30px 5px 30px;
+    margin: 15px 0px 15px 0px;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* homepage lowersection */
+.lowersection{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.lowersection div{
+    display: flex;
+    margin: 10px;
+    font-size: large;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(96, 205, 205);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.navbar-title{
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px
+}
+
+.navbar-title:hover{
+    cursor: pointer;
+}
+
+.navbar-item{
+    font-size: large;
+    font-weight: 800;
+    height: 80px;
+    padding: 0px 20px 0px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-item:hover{
+    background-color: rgb(155, 237, 237);
+}
+
+.navbar div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar h1{
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+/* enquire */
+.enquire{
+    display: flex;
+    flex-direction: column;
+}
+
+/* <button> */
+button:hover{
+    transform: scale(1.05);
+    background-color: rgb(137, 176, 203);
+}
+
+/* homepage maintext */
+main{
+    width: 90%;
+}
+
+/* homepage explanation */
+.explanation{
+    font-size: large;
+
+    margin: 30px 0px 30px 0px;
+    padding-bottom: 15px;
+}
+
+/* daily explanation */
+.day{
+    margin: 75px 0px 75px 0px;
+}
+
+.day a{
+    text-decoration: underline;
+}
+
+/* enquire page */
+.enquire{
+    margin: 30px;
+}
+
+.enquire fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+/* id selector example */
+#idselector{
+    background-color: rgb(129, 221, 221);
+    color: rgb(242, 59, 71);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#day3{
+    border: 2px solid black;
+}
+
+/* Flexbox example 1 */
+#flex1{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flexbox example 2 */
+#flex2{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flexbox example 3 */
+#flex3{
+    margin: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* Flexbox example 4 */
+#flex4{
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flexbox example 5 */
+#flex5{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Flexbox example 6 */
+#flex6{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flexExamples section{
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+}
+
+.exampleDiv{
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+
+/* Positioning Examples */
+#posExamples div{
+    margin: 50px;
+}
+
+#posExamples section{
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+}
+
+#pos1 div{
+    position: static;
+}
+
+#pos2 div{
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+
+#pos3 div{
+    position: sticky;
+    bottom: 100px;
+    top: 100px;
+}
+
+#pos4 div{
+    position: absolute;
+    top: 1700px;
+    left: 800px;
+}
+
+#pos5 div{
+    position: fixed;
+    top: 300px;
+    left: 1250px;
+}
+
+
+.flexdiv p{
+    font-weight: bolder;
+}
+
+
+/* Grid Examples */
+#gridExamples section{
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid3{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid3Item4{
+    grid-row: 2 / span 2;
+    height: 85%;
+}
+
+#grid4{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid4Item5{
+    grid-column: 2 / span 2;
+    width: 85%;
+}
+
+#grid5{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid5Item1{
+    grid-row: 1 / span 3;
+    height: 90%;    
+}
+
+#grid6{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid6Item1{
+    grid-column: 1 / span 3;
+    width: 90%;    
+}
+
+#grid7{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+#grid7Item1{
+    grid-column: 1 / span 3;
+    width: 90%;   
+}
+
+#grid7Item2{
+    grid-column: 1 / span 2;
+    width: 85%;   
+}
+
+#grid7Item4{
+    grid-column: 1 / span 3;
+    width: 90%;   
+}
+
+
+/* Grid Template Layout */
+.gridLayout{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 10vh 70vh 20vh;
+    grid-template-areas: 
+    "navbar navbar navbar navbar navbar"
+    "sidebar main main main main"
+    "footer footer footer footer footer";
+}
+
+#gridLayout{
+    padding: 0px;
+}
+
+.gridLayout .navbar{
+    grid-area: navbar;
+    z-index: 4;
+}
+
+.gridLayout main{
+    grid-area: main;
+    background-color: aquamarine;
+    z-index: 3;
+    width: 100%;
+}
+
+.gridLayout aside{
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.gridLayout footer{
+    grid-area: footer;
+    background-color: rgb(102, 102, 214);
+}

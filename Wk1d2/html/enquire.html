@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+        <link rel="stylesheet" href="../static/styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <a href="index.html" class="navbar-title align-center"><h1>Week 1</h1></a>
+        <a href="headings.html" class="navbar-item align-center">Headings Example</a>
+        <a href="image.html" class="navbar-item align-center">Image Example</a>
+        <a href="enquire.html" class="navbar-item align-center">Enquire</a>
+
+    </nav>
+
+    <!-- Enquiry Form -->
+    <main class="align-center">
+        <form class="enquire">
+            <!-- Personal Information -->
+            <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" minlength="1" required>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" minlength="1" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="telephone" id="telephone" maxlength="11" required aria-describedby="telephone-hint">
+
+            <!-- This is hidden so that the average user cannot see it, however people with screenreaders will get this message
+             as it is the id for the above 'aria-describedby' attribute -->
+            <p hidden id="telephone-hint">Your telephone number cannot be over 11 digits long. Please do not include country code.</p>
+            </fieldset>
+
+            <!-- Enquiry Information -->
+            <fieldset>
+            <legend>Enquiry Information</legend>
+            <label for="enquiry">Enquiry</label>
+            <input type="text" name="enquiry" id="enquiry" required>
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file">
+
+            <label for="quantity">Quantity</label>
+            <input type="range" name="quantity" id="quantity" min="0" max="10" step="1" value="0" required>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" required>
+            </fieldset>
+            
+            <!-- Legal Requirements -->
+            <fieldset>
+            <legend>Legal Requirements</legend>
+            <label for="privacy">Privacy Policy</label>
+            <input type="radio" name="enquiry" id="enquiry" required>
+
+            <label for="termsandcs">Terms and Conditions</label>
+            <input type="checkbox" name="termsandcs" id="termsandcs" required>
+            </fieldset>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </main>
+
+</body>
+</html>
