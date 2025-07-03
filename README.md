@@ -36,6 +36,7 @@ This website showcases the following core HTML and CSS concepts:
 
 ## Project Structure
 
+```
 .
 ├── static/
 │   ├── imgs/
@@ -51,6 +52,7 @@ This website showcases the following core HTML and CSS concepts:
 ├── image.html
 ├── index.html
 └── positionings.html
+```
 
 * `static/imgs/`: Contains images used in the website.
 * `static/styles/`: Contains the main CSS stylesheet (`style.css`).
